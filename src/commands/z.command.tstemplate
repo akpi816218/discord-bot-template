@@ -1,0 +1,14 @@
+/**
+ * @fileoverview Template for a slash command
+ */
+
+import { ChatInputCommandInteraction, SlashCommandBuilder } from 'discord.js';
+
+// ! Add command properties
+export const data = new SlashCommandBuilder()
+	.setName('name')
+	.setDescription('description');
+
+export async function execute(interaction: ChatInputCommandInteraction) {
+	//  ...
+}

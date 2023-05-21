@@ -1,0 +1,13 @@
+/**
+ * @fileoverview Template for event handler
+ */
+
+import { Events } from 'discord.js';
+
+// ! Add event property
+export const name = Events;
+// Execute once or not
+export const once = false;
+export async function execute(/* Add args passed to event handler function */) {
+	// ...
+}
